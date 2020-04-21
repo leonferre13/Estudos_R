@@ -1,0 +1,35 @@
+> getwd()
+[1] "C:/Users/leofe/Documents"
+> nums <- read.csv("C:/Users/leofe/exemplo.csv")
+> nums
+  ï..1 X2
+1    2  4
+2    3  6
+3    4  8
+> lista <- read.csv("C:/Users/leofe/exemplo.csv",sep=";")
+> lista
+  ï..1.2
+1    2,4
+2    3,6
+3    4,8
+> lista <- read.csv("C:/Users/leofe/exemplo.csv",sep=",")
+> lista
+  ï..1 X2
+1    2  4
+2    3  6
+3    4  8
+> nums
+  ï..1 X2
+1    2  4
+2    3  6
+3    4  8
+> nums$X1
+NULL
+> nums$X2
+[1] 4 6 8
+> nums <- read.csv("C:/Users/leofe/exemplo.csv",sep=";")
+> nums
+  ï..1 X2
+1    2  4
+2    3  6
+3    4  8
